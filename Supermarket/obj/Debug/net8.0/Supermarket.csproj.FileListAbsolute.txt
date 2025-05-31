@@ -1,0 +1,14 @@
+C:\dev\Supermarket\Supermarket\bin\Debug\net8.0\Supermarket.exe
+C:\dev\Supermarket\Supermarket\bin\Debug\net8.0\Supermarket.deps.json
+C:\dev\Supermarket\Supermarket\bin\Debug\net8.0\Supermarket.runtimeconfig.json
+C:\dev\Supermarket\Supermarket\bin\Debug\net8.0\Supermarket.dll
+C:\dev\Supermarket\Supermarket\bin\Debug\net8.0\Supermarket.pdb
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.AssemblyInfoInputs.cache
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.AssemblyInfo.cs
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.csproj.CoreCompileInputs.cache
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.dll
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\refint\Supermarket.dll
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.pdb
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.genruntimeconfig.cache
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\ref\Supermarket.dll
