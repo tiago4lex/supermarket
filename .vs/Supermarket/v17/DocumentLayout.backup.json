@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\dev\\Supermarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|c:\\dev\\supermarket\\supermarket\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|solutionrelative:supermarket\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|c:\\dev\\supermarket\\supermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|solutionrelative:supermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|c:\\dev\\supermarket\\supermarket\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|solutionrelative:supermarket\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|c:\\dev\\supermarket\\supermarket\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|solutionrelative:supermarket\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Venda.cs",
-              "DocumentMoniker": "C:\\dev\\Supermarket\\Supermarket\\Venda.cs",
-              "RelativeDocumentMoniker": "Supermarket\\Venda.cs",
-              "ToolTip": "C:\\dev\\Supermarket\\Supermarket\\Venda.cs",
-              "RelativeToolTip": "Supermarket\\Venda.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:08:04.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\dev\\Supermarket\\Supermarket\\Produto.cs",
-              "RelativeDocumentMoniker": "Supermarket\\Produto.cs",
-              "ToolTip": "C:\\dev\\Supermarket\\Supermarket\\Produto.cs",
-              "RelativeToolTip": "Supermarket\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:07:50.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\Supermarket\\Supermarket\\Program.cs",
               "RelativeDocumentMoniker": "Supermarket\\Program.cs",
-              "ToolTip": "C:\\dev\\Supermarket\\Supermarket\\Program.cs",
-              "RelativeToolTip": "Supermarket\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\dev\\Supermarket\\Supermarket\\Program.cs*",
+              "RelativeToolTip": "Supermarket\\Program.cs*",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAGEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T23:55:34.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pagamento.cs",
-              "DocumentMoniker": "C:\\dev\\Supermarket\\Supermarket\\Pagamento.cs",
-              "RelativeDocumentMoniker": "Supermarket\\Pagamento.cs",
-              "ToolTip": "C:\\dev\\Supermarket\\Supermarket\\Pagamento.cs*",
-              "RelativeToolTip": "Supermarket\\Pagamento.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:00:02.067Z",
+              "WhenOpened": "2025-06-02T19:33:56.045Z",
               "EditorCaption": ""
             }
           ]

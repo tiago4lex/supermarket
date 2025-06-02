@@ -12,3 +12,4 @@ C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\refint\Supermarket.dll
 C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.pdb
 C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.genruntimeconfig.cache
 C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\ref\Supermarket.dll
+C:\dev\Supermarket\Supermarket\obj\Debug\net8.0\Supermarket.sourcelink.json

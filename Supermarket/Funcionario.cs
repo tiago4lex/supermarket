@@ -15,6 +15,7 @@ public class Funcionario : Pessoa
 
     public void GetFuncionario()
     {
+        Console.WriteLine($"DADOS DO: {this.GetType().Name}");
         Console.WriteLine($"ID: {this.Id}");
         Console.WriteLine($"NOME: {this.Nome}");
         Console.WriteLine($"CPF: {this.Cpf}");

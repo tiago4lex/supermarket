@@ -14,10 +14,10 @@ internal class Pagamento
 
     public void GerarNota()
     {
-        Console.WriteLine("Dados do cliente");
+        Console.WriteLine("\n\n-=-=-=-=-=-=-=| GERANDO NOTA |=-=-=--=-=-=-=-=-");
         Venda.Cliente.GetCliente();
 
-        Console.WriteLine($"FORMA DE PAGAMENTO: {FormaPagamento}");
+        Console.WriteLine($"\nFORMA DE PAGAMENTO: {FormaPagamento}");
 
         Console.WriteLine("PRODUTOS:");
         Console.WriteLine("NOME\tCUSTO");
@@ -27,6 +27,8 @@ internal class Pagamento
             Total += Venda.Produtos[i].Preco;
         }
 
-        Console.WriteLine($"Total a pagar: ${Total*(1-Venda.Cliente.Desconto):f2} reais");
+        Console.WriteLine($"\nTotal a pagar: ${Total*(1-Venda.Cliente.Desconto):f2} reais");
+        Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
+
     }
 }
