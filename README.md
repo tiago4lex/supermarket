@@ -6,6 +6,8 @@ Este projeto implementa um sistema simplificado de gerenciamento para um superme
 
 O projeto é organizado em diversas classes que representam os diferentes componentes do sistema de supermercado. A estrutura de classes e seus relacionamentos podem ser visualizados em detalhe no diagrama UML fornecido (`supermarket-final.drawio`), que oferece uma representação gráfica da arquitetura do sistema.
 
+![UML](uml-final-fundo-preto.jpg)
+
 ### Classes Base e Pessoas
 
 A classe `Pessoa` serve como uma classe base abstrata (embora não marcada explicitamente como `abstract` no código fornecido, seu propósito é ser herdada), contendo atributos comuns a indivíduos no sistema, como `Cpf` e `Nome`. Dela herdam classes mais específicas que representam diferentes tipos de pessoas envolvidas no contexto do supermercado.
