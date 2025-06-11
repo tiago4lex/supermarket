@@ -101,6 +101,8 @@ fornecedor1.SetProdutos(listaProdutos);
 listaFornecedores.Add(fornecedor1);
 listaFornecedores.Add(fornecedor2);
 
+var formaPagamento = new FormaPagamento();
+
 supermercado.SetFornecedores(listaFornecedores);
 
 while (true) // case pro usuário escolher o que quer fazer
@@ -139,14 +141,16 @@ while (true) // case pro usuário escolher o que quer fazer
         case "4":
             Console.WriteLine("Escolha o cliente:");
             for (int i = 0; i < listaClientes.Count; i++)
+            {
                 Console.WriteLine($"{i} - {listaClientes[i].Nome}");
+            }
             if (!int.TryParse(Console.ReadLine(), out int clienteIndex) || clienteIndex < 0 || clienteIndex >= listaClientes.Count) // !int.tryparse converte o valor escrito para int 32bit
-                break;
+                break; // se digitar errado , sai do case
 
             List<Produto> produtosSelecionados = new();
             Console.WriteLine("Escolha os produtos (digite -1 para encerrar):");
             var todosProdutos = listaFornecedores.SelectMany(f => f.Produtos ?? new()).ToList(); // pega todos os produtos de todos os fornecedores, ai na lambda se o produto tiver vazio, ele retorna uma lista vazia
-            for (int i = 0; i < todosProdutos.Count; i++)
+            for (int i = 0; i < todosProdutos.Count; i++)                 //?? = operador nulo-coalescente 
                 Console.WriteLine($"{i} - {todosProdutos[i].Nome} - R${todosProdutos[i].Preco}");// for para mostrar todos os produtos
 
             while (true) // selecionar os produtos
@@ -157,8 +161,23 @@ while (true) // case pro usuário escolher o que quer fazer
                 if (prodIndex >= 0 && prodIndex < todosProdutos.Count) 
                     produtosSelecionados.Add(todosProdutos[prodIndex]);
             }
+            while (true)
+            {
+                Console.WriteLine("Indique a forma de pagamento: ");
+                Console.WriteLine("0 - credito" +
+                    "1 - debito" +
+                    "2 - cedulas");
+                formaPagamento = Console.ReadLine() switch
+                {
+                    "0" => FormaPagamento.Credito,
+                    "1" => FormaPagamento.Debito,
+                    "2" => FormaPagamento.Cedulas,
+                };
+                break;
+            }
+
             var venda = new Venda(listaClientes[clienteIndex], produtosSelecionados); // cria venda com pra meter no pagamenot
-            var pagamento = new Pagamento(venda, FormaPagamento.Credito); // pagamento
+            var pagamento = new Pagamento(venda, formaPagamento); // pagamento
             pagamento.GerarNota();
             break;
         case "9": // sai

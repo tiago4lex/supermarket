@@ -122,22 +122,32 @@ internal class Supermercado
     public void GerenciarProdutos(List<Fornecedor> fornecedores)
     {
         Console.WriteLine("Escolha o fornecedor para gerenciar produtos:");
-        for (int i = 0; i < fornecedores.Count; i++)
+
+        for (int i = 0; i < fornecedores.Count; i++) 
+        {
             Console.WriteLine($"{i} - {fornecedores[i].Nome}");
-        if (!int.TryParse(Console.ReadLine(), out int fIndex) || fIndex >= fornecedores.Count) return;
-        var fornecedor = fornecedores[fIndex];
+        }
+            
+        if (!int.TryParse(Console.ReadLine(), out int fornecedorIndex) || fornecedorIndex >= fornecedores.Count) return;
+        var fornecedor = fornecedores[fornecedorIndex];
+
         if (fornecedor.Produtos == null)
+        {
             fornecedor.Produtos = new List<Produto>();
+        }
 
         Console.WriteLine("1 - Adicionar Produto\n2 - Atualizar Produto\n3 - Remover Produto");
-        var opc = Console.ReadLine();
-        switch (opc)
+
+        var opcao = Console.ReadLine();
+
+        switch (opcao)
         {
             case "1":
                 Console.Write("Nome: "); var nome = Console.ReadLine();
                 Console.Write("Preço: "); double.TryParse(Console.ReadLine(), out double preco);
                 fornecedor.Produtos.Add(new Produto(nome, preco));
                 break;
+
             case "2":
                 for (int i = 0; i < fornecedor.Produtos.Count; i++)
                     Console.WriteLine($"{i} - {fornecedor.Produtos[i].Nome}");
@@ -146,10 +156,14 @@ internal class Supermercado
                 Console.Write("Novo Preço: "); double.TryParse(Console.ReadLine(), out double novoPreco);
                 fornecedor.Produtos[pIdx].Preco = novoPreco;
                 break;
+
             case "3":
                 for (int i = 0; i < fornecedor.Produtos.Count; i++)
+                {
                     Console.WriteLine($"{i} - {fornecedor.Produtos[i].Nome}");
-                if (!int.TryParse(Console.ReadLine(), out int delIdx) || delIdx >= fornecedor.Produtos.Count) return;
+                }
+
+                if (!int.TryParse(Console.ReadLine(), out int delIdx) || delIdx >= fornecedor.Produtos.Count) return; // tentar converter, se converter, armazena em delIdx || segundo trecho verifica se ta no intervalo
                 fornecedor.Produtos.RemoveAt(delIdx);
                 break;
         }
