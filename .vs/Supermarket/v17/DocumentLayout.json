@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\dev\\supermarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|d:\\dev\\supermarket\\supermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|solutionrelative:supermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|d:\\dev\\supermarket\\supermarket\\clientefuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|solutionrelative:supermarket\\clientefuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|d:\\dev\\supermarket\\supermarket\\formapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|d:\\dev\\supermarket\\supermarket\\supermercado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|solutionrelative:supermarket\\supermercado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|d:\\dev\\supermarket\\supermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF124106-6FC0-483D-B2AA-28C906E1818D}|Supermarket\\Supermarket.csproj|solutionrelative:supermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteFuncionario.cs",
+              "DocumentMoniker": "D:\\dev\\supermarket\\Supermarket\\ClienteFuncionario.cs",
+              "RelativeDocumentMoniker": "Supermarket\\ClienteFuncionario.cs",
+              "ToolTip": "D:\\dev\\supermarket\\Supermarket\\ClienteFuncionario.cs*",
+              "RelativeToolTip": "Supermarket\\ClienteFuncionario.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T21:09:30.834Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -51,16 +68,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dev\\supermarket\\Supermarket\\Program.cs",
               "RelativeDocumentMoniker": "Supermarket\\Program.cs",
               "ToolTip": "D:\\dev\\supermarket\\Supermarket\\Program.cs",
               "RelativeToolTip": "Supermarket\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAMcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAAJAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T21:23:00.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T21:23:00.466Z"
             },
             {
               "$type": "Document",
@@ -70,7 +86,7 @@
               "RelativeDocumentMoniker": "Supermarket\\Supermercado.cs",
               "ToolTip": "D:\\dev\\supermarket\\Supermarket\\Supermercado.cs",
               "RelativeToolTip": "Supermarket\\Supermercado.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAiwGsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswJwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T15:34:45.049Z",
               "EditorCaption": ""

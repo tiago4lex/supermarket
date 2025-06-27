@@ -15,7 +15,7 @@ internal class ClienteFuncionario : Cliente
 
     public override void GetCliente() // sobreescrevendo o codigo para mostrar os detalhes do funcionario e o desconto
     {
-        Funcionario.GetFuncionario();
+        Funcionario.GetFuncionario(); // método do Cliente
         Console.WriteLine($"Desconto: {this.Desconto * 100}%");
     }
 }
